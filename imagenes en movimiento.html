@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>slider automatico</title>
+</head>
+<style type="text/css">
+	
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.slider{
+	width: 100%;
+	height: 600%;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+	animation: cambio 20s infinite
+	alternate linear ;
+	width: 400%;
+}
+.slider li{
+	width: 100%;
+    list-style: none; 
+}
+.slider img{
+	width: 50%;
+	height: 50%;
+}
+@keyframes cambio{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}     
+}
+
+.titulo{
+	text-align: center;
+	color: blue;
+}
+
+.hom{
+			margin: 10px;
+			padding: 10px;
+			background-color:beige;
+			width: 125px;
+			border-radius: 150px;
+			color: balck;
+			font-family: cursive;
+</style>
+
+<body>
+<div>
+
+<div>
+    <h1 class="titulo">HOMBRES</h1>
+</div>
+
+	<div>
+	<h2 class="hom">SHORT</h2>
+</div>
+
+<div class="slider">
+	<ul>
+		<li><img src="imagenes/short1.png"></li>
+		<li><img src="imagenes/short2.png"></li>
+		<li><img src="imagenes/short3.png"></li>
+		<li><img src="imagenes/short4.png"></li>
+	</ul>
+
+	<h1 class="precio">Precio: s/20</h1>
+</div>
+
+</div>
+
+
+<div>
+	<div>
+	<h2 class="hom">JEANS</h2>
+    </div>
+
+<div class="slider">
+	<ul>
+		<li><img src="imagenes/short1.png"></li>
+		<li><img src="imagenes/short2.png">  </li>
+		<li><img src="imagenes/short3.png"> </li>
+		<li><img src="imagenes/short4.png"> </li>
+	</ul>
+
+	<h1 class="precio">Precio: s/20</h1>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+<div>
+	<div>
+	<h2 class="hom">POLERAS</h2>
+    </div>
+
+<div class="slider">
+	<ul>
+		<li><img src="imagenes/polera1.png"></li>
+		<li><img src="imagenes/polera2.png">  </li>
+		<li><img src="imagenes/polera3.png"> </li>
+		<li><img src="imagenes/polera4.png"> </li>
+	</ul>
+
+	<h1 class="precio">Precio: s/20</h1>
+
+	
+</div>
+
+</div>
+
+
+</body>
+</html>

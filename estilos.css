@@ -1,0 +1,192 @@
+		.encabezado{
+			background-color: none;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.menu{
+			background-color: none;
+			list-style: none;
+		}
+		.menu li{
+			display: inline-block;
+			}
+		.menu li a{
+			text-decoration: none;
+			background-color: black;
+			color: white;
+			padding: 10px 20px;
+			margin: 20px;
+		}
+		.menu li a:hover{
+			background-color: brown;
+		}
+		.hom{
+			margin: 10px;
+			padding: 10px;
+			background-color:beige;
+			width: 125px;
+			border-radius: 150px;
+			color: balck;
+			font-family: cursive;
+		}
+		.cuerpo{
+			width: 100%;
+			
+		}
+		.cuerpo2{
+			display: flex;
+		}
+		.cont{
+			margin: 20px;
+			padding: 20px;
+			width: 100%;
+		}
+		.sub{
+			text-align: center;
+			margin: 10px;
+			padding: 10px;
+			background-color: skyblue;
+			width: 125px;
+			border-radius: 150px;
+		}
+		.bot{
+			margin: 10px;
+			padding: 10px;
+			text-decoration: none;
+			background-color: red;
+			color: white;
+			display: grid;
+			place-items: center;
+		}
+		.im{
+			border-radius: 150px;
+		}
+		.body{
+			background-repeat: no-repeat;
+		}
+		.muje{
+			margin: 10px;
+			padding: 10px;
+			background-color:#D3D1C9;
+			width: 125px;
+			border-radius: 150px;
+			color: black;
+			font-family: cursive;
+		}
+		.cuerMuje{
+			display: flex;
+		}
+		.contm{
+			margin: 20px;
+			padding: 20px;
+			width: 100%;
+
+		}
+		.mujeres{
+			text-align: center;
+			margin: 10px;
+			padding: 10px;
+			background-color: #EF6C80;
+			width: 125px;
+			border-radius: 150px;
+			color: black;
+			font-family: fantasy;
+			}
+		.mujer{
+			border-radius: 150px;
+		}
+		.cuerpoM{
+			width: 100%;
+			
+		}
+		.boto{
+			margin: 10px;
+			padding: 10px;
+			text-decoration: none;
+			background-color: red;
+			color: white;
+			display: grid;
+			place-items: center;	
+		}
+		.sub{
+			font-family: fantasy;
+		}
+		
+		.padre{
+			display: flex;
+		}
+		.logo{
+			border-radius: 150px;
+			 width: 90px;
+             height: 90px;
+		}
+		.ban{
+			border-radius: 100px;
+		}
+		.pie{
+           text-align: center; 
+        }
+        .bajo{
+        	display: inline;
+           	margin-right: 180px; 
+          	border: 1px solid black;
+           	padding: 5px
+        }
+        .pies{
+
+        }
+        footer {
+            padding: 20px;
+        }
+          
+        .footer-content {
+            display: flex; 
+           
+            justify-content: space-between; 
+        }
+          
+        .footer-section {
+            flex-basis: 33%;
+            justify-content: center;
+
+           
+
+        }
+          
+		
+       
+        p{
+        	font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .red {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .footer-section p {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-section p img {
+            margin-right: 5px;
+        }
+
+        .footer-section p span {
+            font-size: 17px;
+        }
+        
+        a {
+            color: black;
+          }
+      .h3pie{
+      border: 1px solid black;
+      width: 200px;
+
+      }
+     .body{
+     	background-color: #FFF5CF;
+     }
